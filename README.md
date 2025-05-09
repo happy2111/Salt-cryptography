@@ -1,7 +1,3 @@
-Great! Since you’ve updated the code, here is an updated and complete English version of the GitHub README based on your improved JavaScript:
-
----
-
 # 🔐 Salt Encryptor & Decryptor (JavaScript)
 
 This is a lightweight JavaScript-based tool for encrypting and decrypting text using a custom salt and ASCII shifting mechanism. It is designed for educational or demonstration purposes and runs entirely in the browser using standard HTML and JavaScript.
