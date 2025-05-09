@@ -1,4 +1,4 @@
-// let TEXT = "men bugun darsga keldim";
+// let TEXT = "sentence to test the script";
 
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
@@ -54,12 +54,6 @@ function changeTheSymbols(t, len, rp) {
   );
 }
 
-// let rndText = putTextToRandomPossition(TEXT);
-// let saltedText = rndText[0];
-// let rndPos = rndText[1];
-// let encryptedT = changeTheSymbols(saltedText, rndText[2], rndPos);
-
-// console.log("shifrlangan text:", encryptedT);
 
 
 function decipherFirstPart(encrypted) {
@@ -72,7 +66,7 @@ function decipherFirstPart(encrypted) {
     s += toDefault(toACII(encrypted[i]) - lastSymbol);
   }
 
-  // console.log("deshifrlash 1:", rp, len, s);
+
   return [rp, len, s];
 }
 
@@ -85,13 +79,7 @@ function decipherSecondPart(deciphered) {
   return cleanedText;
 }
 
-// let decryptedData = decipherFirstPart(encryptedT);
-// let decryptedText = decipherSecondPart(decryptedData);
-
-// console.log("deshifrlangan text:", decryptedText, decryptedData);
-
-
-// *******************************************************************
+// **************Integration with DOM*****************************************************
 
 
 let shiftInput = document.querySelector("#shiftInput");
